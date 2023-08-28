@@ -90,10 +90,10 @@
 							<a class="nav-link active" href="/csp/datasets/datasets.csp">View DataSets</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link active" href="/csp/sys/%25CSP.Portal.Home.zen?$NAMESPACE=DATASETS">Management Portal</a>
+							<a class="nav-link active" href="/csp/sys/%25CSP.Portal.Home.zen?$NAMESPACE=#($NAMESPACE)#">Management Portal</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link active" href="/csp/sys/exp/%25CSP.UI.Portal.SQL.Home.zen?$NAMESPACE=DATASETS">DataSets SQL</a>
+							<a class="nav-link active" href="/csp/sys/exp/%25CSP.UI.Portal.SQL.Home.zen?$NAMESPACE=#($NAMESPACE)#">DataSets SQL</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link active" href="https://docs.intersystems.com/irislatest/csp/docbook/DocBook.UI.Page.cls?KEY=RSQL_loaddata">Load Data Docs</a>
